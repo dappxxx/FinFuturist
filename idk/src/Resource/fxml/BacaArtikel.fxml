@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.BacaArtikelController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffff;" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane layoutY="77.0" prefHeight="658.0" prefWidth="879.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1470.0" prefWidth="884.0" style="-fx-background-color: #ffff;">
+                     <children>
+                        <ImageView fitHeight="195.0" fitWidth="398.0" layoutX="247.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/15.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="156.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Melihat Peluang Investasi Indonesia Setelah Pandemi" textAlignment="CENTER" wrappingWidth="584.435546875">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="37.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Krisis virus corona (COVID-19) saat ini memberikan kesempatan penting bagi pemerintah untuk menerapkan upaya respons dan pemulihan yang mengatasi beberapa kelemahan struktural ekonomi dan masyarakat kita serta membantu membangun kembali dengan lebih baik. Paket pemulihan yang berfokus pada pemulihan cepat ke bisnis seperti biasa kemungkinan besar akan merusak lingkungan. Perlu dicatat bahwa, sejauh ini, sekitar 50% dukungan kebijakan untuk energi dalam paket pemulihan masih diarahkan pada bahan bakar fosil yang intensif karbon.(Boone, 2020[5])Sebaliknya, paket pemulihan “hijau” berfokus pada penyelarasan pengeluaran fiskal selama pemulihan dengan tujuan iklim dan lingkungan. Paket ini memberi pemerintah kesempatan untuk mengembangkan strategi pertumbuhan baru yang mengubah ekonomi menjadi ekonomi yang tangguh, modern, melindungi alam, rendah karbon, hemat sumber daya, dan kompetitif." textAlignment="JUSTIFY" wrappingWidth="791.539192199707">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="35.0" layoutY="646.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selain mendorong pengurangan emisi yang signifikan yang diperlukan untuk menghentikan perubahan iklim, pemulihan hijau juga dapat memiliki justifikasi ekonomi yang kuat. Pertama-tama, alasan ekonomi terkait dengan pengganda fiskal dan penciptaan lapangan kerja yang kuat.(Hepburn et al., 2020[3]). Selain itu, mempercepat transisi menuju masa depan rendah karbon juga akan menurunkan biaya transisi baik bagi dunia usaha maupun masyarakat serta mengurangi risiko di masa depan, termasuk risiko yang terkait dengan perubahan iklim. Paket pemulihan bukan satu-satunya mekanisme untuk mencapai perubahan transformasional menuju perekonomian rendah karbon. Namun memanfaatkan peluang untuk mengarahkan paket pemulihan ke arah pengurangan risiko-risiko ini adalah pilihan yang lebih baik daripada harus menanggung akibat dari mitigasi yang lebih mahal dan adaptasi yang mahal di kemudian hari." textAlignment="JUSTIFY" wrappingWidth="785.6543121337891">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="34.0" layoutY="925.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Keputusan anggaran pemerintah merupakan kunci dalam mewujudkan pemulihan ekonomi. Penganggaran ramah lingkungan memberikan cara untuk menggunakan alat pembuatan kebijakan anggaran untuk membantu mencapai tujuan lingkungan dan iklim. Kerangka Penganggaran Hijau OECD menetapkan landasan pendekatan penganggaran ramah lingkungan yang komprehensif, perencanaan strategis dan fiskal, alat penganggaran untuk menghasilkan bukti dan koherensi kebijakan, akuntabilitas dan transparansi serta kerangka tata kelola anggaran yang memungkinkan (OECD, 2020[6])." textAlignment="JUSTIFY" wrappingWidth="785.6543121337891">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="33.0" layoutY="1117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bagian ini membahas bagaimana perangkat penganggaran ramah lingkungan dapat digunakan untuk mendukung pemulihan ramah lingkungan. Tergantung pada keadaan nasional, suatu negara mungkin sudah memiliki beberapa landasan, sementara di negara lain, data, metodologi, atau pengaturan kelembagaan belum ada. Terlepas dari tahap pengembangannya, bagian ini bertujuan untuk memberikan kepada negara-negara beberapa alat penganggaran ramah lingkungan yang sederhana dan dapat diterapkan secara universal, yang dapat dikembangkan dan diterapkan pada waktunya untuk paket stimulus. Secara khusus, laporan ini menyoroti: alat yang membantu mengidentifikasi prioritas ramah lingkungan dan pilihan anggaran untuk mendukungnya; alat untuk menilai bagaimana ukuran anggaran yang berbeda berdampak pada tujuan ramah lingkungan; alat untuk membantu memprioritaskan investasi yang mendukung pemulihan rendah karbon; dan alat untuk melaporkan bagaimana paket stimulus membantu mencapai tujuan ramah lingkungan." textAlignment="JUSTIFY" wrappingWidth="785.6543121337891">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+            <ScrollPane layoutX="935.0" layoutY="78.0" prefHeight="658.0" prefWidth="364.0" style="-fx-background-color: #ffff;">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="657.0" prefWidth="351.0" style="-fx-background-color: #ffff;">
+                     <children>
+                        <TextField layoutX="16.0" layoutY="18.0" prefHeight="32.0" prefWidth="312.0" promptText="Tulis Komentar....." />
+                        <ImageView fitHeight="41.0" fitWidth="30.0" layoutX="14.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/account.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="53.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="anakmanusia">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="52.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="artikelnya lengkap, menarik dan sangat menginspirasi" wrappingWidth="210.31297302246094">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="52.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1j lalu" wrappingWidth="32.0625">
+                           <font>
+                              <Font name="System Italic" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="53.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="artikelnya lengkap, menarik dan sangat menginspirasi" wrappingWidth="210.31297302246094">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="41.0" fitWidth="30.0" layoutX="15.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/account.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="52.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="anakmama">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="41.0" fitWidth="30.0" layoutX="15.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/account.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="41.0" fitWidth="30.0" layoutX="15.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/account.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="41.0" fitWidth="30.0" layoutX="14.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/account.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="41.0" fitWidth="30.0" layoutX="16.0" layoutY="484.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/account.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="41.0" fitWidth="30.0" layoutX="14.0" layoutY="558.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/account.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="55.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="artikelnya lengkap, menarik dan sangat menginspirasi" wrappingWidth="210.31297302246094">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="56.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="artikelnya lengkap, menarik dan sangat menginspirasi" wrappingWidth="210.31297302246094">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="57.0" layoutY="445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="artikelnya lengkap, menarik dan sangat menginspirasi" wrappingWidth="210.31297302246094">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="58.0" layoutY="516.0" strokeType="OUTSIDE" strokeWidth="0.0" text="artikelnya lengkap, menarik dan sangat menginspirasi" wrappingWidth="210.31297302246094">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="61.0" layoutY="595.0" strokeType="OUTSIDE" strokeWidth="0.0" text="artikelnya lengkap, menarik dan sangat menginspirasi" wrappingWidth="210.31297302246094">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="55.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zaki">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="57.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lisa">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="59.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Agus">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="60.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jonathan">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="61.0" layoutY="573.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bangjo">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                     </children></AnchorPane>
+              </content>
+            </ScrollPane>
+            <Button layoutX="897.0" layoutY="325.0" mnemonicParsing="false" style="-fx-background-color: #ffff;">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/komentar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="902.0" layoutY="363.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="11.0" style="-fx-background-color: #ffff;" />
+            <Button layoutX="901.0" layoutY="411.0" mnemonicParsing="false" style="-fx-background-color: #ffff;" />
+            <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="905.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Like.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="47.0" layoutX="895.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Bookmarks.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutY="-2.0" prefHeight="78.0" prefWidth="1300.0" style="-fx-background-color: #49796B;">
+               <children>
+                  <ComboBox fx:id="PilihKategori" layoutX="489.0" layoutY="21.0" prefHeight="36.0" prefWidth="184.0" promptText="Kategori" style="-fx-background-color: #ffff; -fx-border-color: #49796B; -fx-background-radius: 1204; -fx-border-radius: 1204;" />
+                  <Button fx:id="TombolProfile" layoutX="1205.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePindahPageProfile" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="57.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/user%20new.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutX="111.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FinFuturist" textAlignment="CENTER" wrappingWidth="113.69139862060553">
+                     <font>
+                        <Font name="Times New Roman" size="20.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="TombolHalamanUtama" layoutX="694.0" layoutY="25.0" mnemonicParsing="false" onAction="#handlePindahPageHalamanUtama" style="-fx-background-color: #49796B;" text="HALAMAN UTAMA" textFill="#fafafa">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="TombolDisukai" layoutX="856.0" layoutY="23.0" mnemonicParsing="false" onAction="#handlePindahPageDisukai" style="-fx-background-color: #49796B;" text="DISUKAI" textFill="#fafafa">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="TombolDisukai" layoutX="957.0" layoutY="24.0" mnemonicParsing="false" onAction="#handlePindahPageDisimpan" style="-fx-background-color: #49796B;" text="DISIMPAN" textFill="#fafafa">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="TombolRiwayatBaca" layoutX="1064.0" layoutY="25.0" mnemonicParsing="false" onAction="#handlePindahPageRiwayatBaca" style="-fx-background-color: #49796B;" text="RIWAYAT BACA" textFill="#fafafa">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="255.0" layoutY="18.0" mnemonicParsing="false" style="-fx-background-color: Transparent;">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/pencarian.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <ImageView fitHeight="67.0" fitWidth="86.0" layoutX="13.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

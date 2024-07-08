@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1300.0" style="-fx-background-color: #ffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.RiwayatBacaController">
+   <children>
+      <BorderPane layoutY="-2.0" prefHeight="735.0" prefWidth="1300.0">
+         <center>
+            <ScrollPane prefHeight="562.0" prefWidth="1300.0" BorderPane.alignment="CENTER">
+               <content>
+                  <AnchorPane prefHeight="1015.0" prefWidth="1309.0">
+                     <children>
+                        <Pane layoutX="-1.0" layoutY="75.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="115.0" prefWidth="1300.0">
+                           <children>
+                              <ImageView fitHeight="115.0" fitWidth="173.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Images/15.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="192.0" layoutY="24.0" prefHeight="69.0" prefWidth="872.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" textFill="#49796b">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="196.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="115.0" prefWidth="1300.0">
+                           <children>
+                              <ImageView fitHeight="115.0" fitWidth="173.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Images/15.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="192.0" layoutY="24.0" prefHeight="69.0" prefWidth="872.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" textFill="#49796b">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutY="315.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="115.0" prefWidth="1300.0">
+                           <children>
+                              <ImageView fitHeight="115.0" fitWidth="173.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Images/15.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="192.0" layoutY="25.0" prefHeight="69.0" prefWidth="872.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" textFill="#49796b">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="-1.0" layoutY="435.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="115.0" prefWidth="1300.0">
+                           <children>
+                              <ImageView fitHeight="115.0" fitWidth="173.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Images/15.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="192.0" layoutY="24.0" prefHeight="69.0" prefWidth="872.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" textFill="#49796b">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="-2.0" layoutY="554.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="115.0" prefWidth="1300.0">
+                           <children>
+                              <ImageView fitHeight="115.0" fitWidth="173.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Images/15.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="192.0" layoutY="24.0" prefHeight="69.0" prefWidth="872.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" textFill="#49796b">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="672.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="115.0" prefWidth="1300.0">
+                           <children>
+                              <ImageView fitHeight="115.0" fitWidth="173.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Images/15.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="192.0" layoutY="24.0" prefHeight="69.0" prefWidth="872.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" textFill="#49796b">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+               </content></ScrollPane>
+         </center>
+      </BorderPane>
+      <AnchorPane layoutY="-4.0" prefHeight="78.0" prefWidth="1300.0" style="-fx-background-color: #49796B;">
+         <children>
+            <ImageView fitHeight="78.0" fitWidth="90.0" layoutX="8.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/logo.png" />
+               </image>
+            </ImageView>
+            <ComboBox fx:id="PilihKategori" layoutX="489.0" layoutY="21.0" prefHeight="36.0" prefWidth="184.0" promptText="Kategori" style="-fx-background-color: #ffff; -fx-border-color: #49796B; -fx-background-radius: 1204; -fx-border-radius: 1204;" />
+            <Button fx:id="TombolProfile" layoutX="1205.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePindahPageProfile" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/user%20new.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Text fill="WHITE" fontSmoothingType="LCD" layoutX="111.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FinFuturist" textAlignment="CENTER" wrappingWidth="113.69139862060553">
+               <font>
+                  <Font name="Times New Roman" size="20.0" />
+               </font>
+            </Text>
+            <Button fx:id="TombolHalamanUtama" layoutX="694.0" layoutY="25.0" mnemonicParsing="false" onAction="#handlePindahPageHalamanUtama" style="-fx-background-color: #49796B;" text="HALAMAN UTAMA" textFill="#fafafa">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="TombolDisukai" layoutX="856.0" layoutY="23.0" mnemonicParsing="false" onAction="#handlePindahPageDisukai" style="-fx-background-color: #49796B;" text="DISUKAI" textFill="#fafafa">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="TombolDisukai" layoutX="957.0" layoutY="24.0" mnemonicParsing="false" onAction="#handlePindahPageDisimpan" style="-fx-background-color: #49796B;" text="DISIMPAN" textFill="#fafafa">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="TombolRiwayatBaca" layoutX="1064.0" layoutY="25.0" mnemonicParsing="false" onAction="#handlePindahPageRiwayatBaca" style="-fx-background-color: #49796B;" text="RIWAYAT BACA" textFill="#fafafa">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="TombolPencarian" layoutX="255.0" layoutY="18.0" mnemonicParsing="false" onAction="#handlePindahPagePencarian" style="-fx-background-color: Trsanparent;">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/pencarian.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

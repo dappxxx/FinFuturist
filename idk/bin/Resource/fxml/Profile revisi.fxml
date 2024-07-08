@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutY="100.0" prefHeight="635.0" prefWidth="1300.0">
+         <left>
+            <VBox prefHeight="200.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="400.0" prefWidth="350.0" spacing="10.0">
+                     <children>
+                        <Label text="Akun Profil">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                           </padding>
+                        </Label>
+                        <Pane prefHeight="30.0" prefWidth="350.0" />
+                        <ImageView fitHeight="200.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/Profile%20Icon.png" />
+                           </image></ImageView>
+                        <Pane layoutX="10.0" layoutY="107.0" prefHeight="50.0" prefWidth="350.0" />
+                        <Button mnemonicParsing="false" text="Ubah Foto Profil">
+                           <padding>
+                              <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                           </padding>
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="Pengaturan Profil">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                     </padding>
+                  </Label>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="70.0" prefWidth="375.0">
+                           <children>
+                              <Label text="Nama Pengguna">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField prefHeight="25.0" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                        <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="70.0" prefWidth="375.0">
+                           <children>
+                              <Label text="Kata Sandi">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField prefHeight="25.0" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="105.0" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="70.0" prefWidth="375.0">
+                           <children>
+                              <Label text="No Handphone">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField prefHeight="25.0" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                        <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="70.0" prefWidth="375.0">
+                           <children>
+                              <Label text="Alamat">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField prefHeight="25.0" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="205.0" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="70.0" prefWidth="375.0">
+                           <children>
+                              <Label text="Email">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField prefHeight="25.0" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                        <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="70.0" prefWidth="375.0">
+                           <children>
+                              <Label text="Tanggal Lahir">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField prefHeight="25.0" />
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="581.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Simpan Perubahan">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets right="200.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+      <AnchorPane layoutY="-1.0" prefHeight="78.0" prefWidth="1300.0" style="-fx-background-color: #49796B;">
+         <children>
+            <ImageView fitHeight="78.0" fitWidth="90.0" layoutX="8.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/logo.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="254.0" layoutY="22.0" prefHeight="37.0" prefWidth="200.0" promptText="Cari" style="-fx-border-width: #49796B; -fx-border-color: #49796B; -fx-border-radius: 1204; -fx-background-radius: 1204; -fx-background-color: #ffff;">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <ComboBox layoutX="489.0" layoutY="21.0" prefHeight="36.0" prefWidth="184.0" promptText="Kategori" style="-fx-background-color: #ffff; -fx-border-color: #49796B; -fx-background-radius: 1204; -fx-border-radius: 1204;" />
+            <Hyperlink layoutX="861.0" layoutY="23.0" prefHeight="34.0" prefWidth="82.0" text="DISUKAI" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Hyperlink>
+            <Button layoutX="1205.0" layoutY="5.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/user%20new.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Hyperlink layoutX="962.0" layoutY="24.0" prefHeight="34.0" prefWidth="94.0" text="DISIMPAN" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink layoutX="1069.0" layoutY="24.0" prefHeight="34.0" prefWidth="125.0" text="RIWAYAT BACA" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Hyperlink>
+            <Text fill="WHITE" fontSmoothingType="LCD" layoutX="111.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FinFuturist" textAlignment="CENTER" wrappingWidth="113.69139862060553">
+               <font>
+                  <Font name="Times New Roman" size="20.0" />
+               </font>
+            </Text>
+            <Hyperlink layoutX="699.0" layoutY="23.0" prefHeight="34.0" prefWidth="146.0" text="HALAMAN UTAMA" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Hyperlink>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

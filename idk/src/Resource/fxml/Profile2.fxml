@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="MainAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1300.0" style="-fx-background-color: #ffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ProfileController">
+   <children>
+      <BorderPane prefHeight="735.0" prefWidth="1300.0">
+         <top>
+            <AnchorPane prefHeight="78.0" prefWidth="1300.0" style="-fx-background-color: #49796B;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="90.0" layoutX="8.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/logo.png" />
+                     </image>
+                  </ImageView>
+                  <ComboBox fx:id="PilihKategori" layoutX="489.0" layoutY="21.0" prefHeight="36.0" prefWidth="184.0" promptText="Kategori" style="-fx-background-color: #ffff; -fx-border-color: #49796B; -fx-background-radius: 1204; -fx-border-radius: 1204;" />
+                  <Button fx:id="TombolProfil" layoutX="1205.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePindahProfil" prefHeight="65.0" prefWidth="72.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="57.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/user%20new.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutX="111.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FinFuturist" textAlignment="CENTER" wrappingWidth="113.69139862060553">
+                     <font>
+                        <Font name="Times New Roman" size="20.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="TombolSearch" layoutX="254.0" layoutY="18.0" mnemonicParsing="false" onAction="#handleButtonSearch" style="-fx-background-color: Transparent;">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/pencarian.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="TombolHalamanUtama" layoutX="694.0" layoutY="25.0" mnemonicParsing="false" onAction="#handleHalamanUtama" style="-fx-background-color: Tranparent;" text="HALAMAN UTAMA" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="TombolDisukai" layoutX="856.0" layoutY="23.0" mnemonicParsing="false" onAction="#handlePageDisukai" style="-fx-background-color: Tranparent;" text="DISUKAI" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="TombolDisimpan" layoutX="957.0" layoutY="24.0" mnemonicParsing="false" onAction="#handlePindahDisimpan" style="-fx-background-color: Transparent;" text="DISIMPAN" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="TombolRiwayatBaca" layoutX="1064.0" layoutY="25.0" mnemonicParsing="false" onAction="#handlePindahRiwayatBaca" style="-fx-background-color: Tranparent;" text="RIWAYAT BACA" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane fx:id="AnchorMain" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane fx:id="AnchorProfile2" layoutX="30.0" layoutY="43.0" prefHeight="573.0" prefWidth="1237.0" style="-fx-background-color: #49796B; -fx-background-radius: 10;" />
+                  <ImageView fx:id="FotoProfile" fitHeight="200.0" fitWidth="250.0" layoutX="74.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/Profile%20Icon.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="78.0" layoutY="77.0" text="Akun Profil" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                     </padding>
+                  </Label>
+                  <Button fx:id="TombolUbahFotoProfile" layoutX="91.0" layoutY="450.0" mnemonicParsing="false" onAction="#handleUbahProfile" prefHeight="53.0" prefWidth="163.0" style="-fx-background-radius: 10px; -fx-background-color: #ffff;" text="Ubah Foto Profil" textFill="#49796b">
+                     <padding>
+                        <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                     </padding>
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="449.0" layoutY="77.0" text="Pengaturan Profil" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="479.0" layoutY="182.0" text="Nama Pengguna" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tfNamaPengguna" layoutX="479.0" layoutY="218.0" prefHeight="25.0" prefWidth="319.0" />
+                  <Label layoutX="479.0" layoutY="275.0" text="Email" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tfEmail" layoutX="475.0" layoutY="309.0" prefHeight="25.0" prefWidth="319.0" />
+                  <Label layoutX="875.0" layoutY="182.0" text="Kata Sandi" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tfKataSandi" layoutX="875.0" layoutY="218.0" prefHeight="25.0" prefWidth="319.0" />
+                  <Label layoutX="875.0" layoutY="275.0" text="Tanggal Lahir" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="TombolSimpanPerubahan" layoutX="725.0" layoutY="452.0" mnemonicParsing="false" onAction="#handleSimpanPerubahan" prefHeight="49.0" prefWidth="197.0" style="-fx-background-color: #ffff; -fx-background-radius: 10px;" text="Simpan Perubahan" textFill="#49796b">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <DatePicker fx:id="dpTanggalLahir" layoutX="876.0" layoutY="309.0" prefHeight="25.0" prefWidth="319.0" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

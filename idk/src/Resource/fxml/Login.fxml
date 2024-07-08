@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="Mainanchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1300.0" style="-fx-background-color: #ffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
+   <children>
+      <Pane fx:id="MainPane" layoutX="3.0" layoutY="2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1300.0">
+         <children>
+            <AnchorPane fx:id="Main2Anchor" layoutX="-3.0" layoutY="-2.0" prefHeight="735.0" prefWidth="607.0" style="-fx-background-color: #49796B;">
+               <children>
+                  <ImageView fx:id="ImageViewLogo" fitHeight="370.0" fitWidth="365.0" layoutX="121.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <TextField fx:id="MasukNama" layoutX="878.0" layoutY="340.0" prefHeight="44.0" prefWidth="213.0" promptText="Nama Pengguna" style="-fx-background-color: transparent; -fx-border-color: #49796B; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField fx:id="MasukKataSandi" layoutX="875.0" layoutY="427.0" prefHeight="44.0" prefWidth="213.0" promptText="Kata Sandi" style="-fx-background-color: transparent; -fx-border-color: #49796B; -fx-border-width: 0px 0px 2px 0px;" />
+            <ImageView fx:id="ImageViewUser" fitHeight="48.0" fitWidth="56.0" layoutX="822.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/user.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageviewPassword" fitHeight="44.0" fitWidth="41.0" layoutX="828.0" layoutY="429.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/password.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ImageviewUsers" fitHeight="146.0" fitWidth="168.0" layoutX="886.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/users.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="masukAkunText" fill="#49796b" layoutX="844.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Masuk Akun" wrappingWidth="251.99987792968744">
+               <font>
+                  <Font name="Calibri Bold" size="48.0" />
+               </font>
+            </Text>
+            <Button fx:id="TombolMasuk" layoutX="899.0" layoutY="508.0" mnemonicParsing="false" onAction="#handleMasuk" prefHeight="32.0" prefWidth="84.0" style="-fx-background-color: #49796B;" text="Masuk" textFill="WHITE" />
+            <Button fx:id="TombolDaftarAkun" layoutX="993.0" layoutY="508.0" mnemonicParsing="false" onAction="#handleDaftarAkun" prefHeight="32.0" prefWidth="84.0" style="-fx-background-color: #ffff;" text="Daftar Akun" textFill="#49796b" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

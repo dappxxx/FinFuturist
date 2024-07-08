@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FileArtikelController">
+    <children>
+        <Label fx:id="judulArtikelLabel" layoutX="14.0" layoutY="14.0" text="Judul Artikel" />
+        <ImageView fx:id="artikelImageView" layoutX="14.0" layoutY="41.0" fitHeight="200.0" fitWidth="200.0" />
+    </children>
+</AnchorPane>

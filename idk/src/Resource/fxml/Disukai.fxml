@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="AnchorMain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1300.0" style="-fx-background-color: #ffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DisimpanController">
+   <children>
+      <BorderPane fx:id="BorderMain" layoutY="-1.0" prefHeight="735.0" prefWidth="1300.0">
+         <center>
+            <ScrollPane fx:id="ScrollPaneMain" prefHeight="854.0" prefWidth="1300.0" BorderPane.alignment="CENTER">
+               <content>
+                  <AnchorPane prefHeight="854.0" prefWidth="1300.0">
+                     <children>
+                        <VBox layoutX="3.0" layoutY="51.0" prefHeight="914.0" prefWidth="1300.0">
+                           <children>
+                              <HBox prefHeight="261.0" prefWidth="1300.0">
+                                 <children>
+                                    <ScrollPane fx:id="ScrollPane2" prefHeight="261.0" prefWidth="1283.0" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <AnchorPane layoutX="10.0" layoutY="313.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="686.0" prefWidth="1300.0">
+                           <children>
+                              <Pane layoutX="10.0" layoutY="31.0" prefHeight="261.0" prefWidth="227.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+                                 <children>
+                                    <HBox alignment="CENTER" layoutX="-2.0" layoutY="9.0" prefHeight="137.0" prefWidth="231.0">
+                                       <children>
+                                          <ImageView fitHeight="150.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Images/15.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Separator layoutX="9.0" layoutY="147.0" prefHeight="4.0" prefWidth="208.0">
+                                       <effect>
+                                          <Blend />
+                                       </effect>
+                                    </Separator>
+                                    <VBox layoutX="-1.0" layoutY="148.0" prefHeight="115.0" prefWidth="228.0" style="-fx-border-radius: 20;">
+                                       <children>
+                                          <Text fill="#49796b" strokeType="OUTSIDE" strokeWidth="0.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" wrappingWidth="210.80938720703125">
+                                             <font>
+                                                <Font name="Tahoma Bold" size="16.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets left="10.0" />
+                                             </VBox.margin>
+                                          </Text>
+                                          <HBox prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button mnemonicParsing="false" style="-fx-background-color: #ffff;" text="Baca Selengkapnya">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <font>
+                                                      <Font name="System Italic" size="12.0" />
+                                                   </font>
+                                                </Button>
+                                                <ImageView fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                                   <HBox.margin>
+                                                      <Insets left="25.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <image>
+                                                      <Image url="@../Images/Like.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="58.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Images/Bookmarks.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <padding>
+                                    <Insets right="30.0" />
+                                 </padding>
+                              </Pane>
+                              <Pane layoutX="274.0" layoutY="34.0" prefHeight="261.0" prefWidth="227.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+                                 <children>
+                                    <HBox alignment="CENTER" layoutX="-2.0" layoutY="9.0" prefHeight="137.0" prefWidth="231.0">
+                                       <children>
+                                          <ImageView fitHeight="150.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Images/15.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Separator layoutX="9.0" layoutY="147.0" prefHeight="4.0" prefWidth="208.0">
+                                       <effect>
+                                          <Blend />
+                                       </effect>
+                                    </Separator>
+                                    <VBox layoutX="-1.0" layoutY="148.0" prefHeight="115.0" prefWidth="228.0" style="-fx-border-radius: 20;">
+                                       <children>
+                                          <Text fill="#49796b" strokeType="OUTSIDE" strokeWidth="0.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" wrappingWidth="210.80938720703125">
+                                             <font>
+                                                <Font name="Tahoma Bold" size="16.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets left="10.0" />
+                                             </VBox.margin>
+                                          </Text>
+                                          <HBox prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button mnemonicParsing="false" style="-fx-background-color: #ffff;" text="Baca Selengkapnya">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <font>
+                                                      <Font name="System Italic" size="12.0" />
+                                                   </font>
+                                                </Button>
+                                                <ImageView fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                                   <HBox.margin>
+                                                      <Insets left="25.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <image>
+                                                      <Image url="@../Images/Like.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="58.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Images/Bookmarks.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <padding>
+                                    <Insets right="30.0" />
+                                 </padding>
+                              </Pane>
+                              <Pane layoutX="537.0" layoutY="34.0" prefHeight="261.0" prefWidth="227.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+                                 <children>
+                                    <HBox alignment="CENTER" layoutX="-2.0" layoutY="9.0" prefHeight="137.0" prefWidth="231.0">
+                                       <children>
+                                          <ImageView fitHeight="150.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Images/15.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Separator layoutX="9.0" layoutY="147.0" prefHeight="4.0" prefWidth="208.0">
+                                       <effect>
+                                          <Blend />
+                                       </effect>
+                                    </Separator>
+                                    <VBox layoutX="-1.0" layoutY="148.0" prefHeight="115.0" prefWidth="228.0" style="-fx-border-radius: 20;">
+                                       <children>
+                                          <Text fill="#49796b" strokeType="OUTSIDE" strokeWidth="0.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" wrappingWidth="210.80938720703125">
+                                             <font>
+                                                <Font name="Tahoma Bold" size="16.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets left="10.0" />
+                                             </VBox.margin>
+                                          </Text>
+                                          <HBox prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button mnemonicParsing="false" style="-fx-background-color: #ffff;" text="Baca Selengkapnya">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <font>
+                                                      <Font name="System Italic" size="12.0" />
+                                                   </font>
+                                                </Button>
+                                                <ImageView fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                                   <HBox.margin>
+                                                      <Insets left="25.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <image>
+                                                      <Image url="@../Images/Like.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="58.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Images/Bookmarks.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <padding>
+                                    <Insets right="30.0" />
+                                 </padding>
+                              </Pane>
+                              <Pane layoutX="799.0" layoutY="38.0" prefHeight="261.0" prefWidth="227.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+                                 <children>
+                                    <HBox alignment="CENTER" layoutX="-2.0" layoutY="9.0" prefHeight="137.0" prefWidth="231.0">
+                                       <children>
+                                          <ImageView fitHeight="150.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Images/15.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Separator layoutX="9.0" layoutY="147.0" prefHeight="4.0" prefWidth="208.0">
+                                       <effect>
+                                          <Blend />
+                                       </effect>
+                                    </Separator>
+                                    <VBox layoutX="-1.0" layoutY="148.0" prefHeight="115.0" prefWidth="228.0" style="-fx-border-radius: 20;">
+                                       <children>
+                                          <Text fill="#49796b" strokeType="OUTSIDE" strokeWidth="0.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" wrappingWidth="210.80938720703125">
+                                             <font>
+                                                <Font name="Tahoma Bold" size="16.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets left="10.0" />
+                                             </VBox.margin>
+                                          </Text>
+                                          <HBox prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button mnemonicParsing="false" style="-fx-background-color: #ffff;" text="Baca Selengkapnya">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <font>
+                                                      <Font name="System Italic" size="12.0" />
+                                                   </font>
+                                                </Button>
+                                                <ImageView fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                                   <HBox.margin>
+                                                      <Insets left="25.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <image>
+                                                      <Image url="@../Images/Like.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="58.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Images/Bookmarks.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <padding>
+                                    <Insets right="30.0" />
+                                 </padding>
+                              </Pane>
+                              <Pane layoutX="1052.0" layoutY="37.0" prefHeight="261.0" prefWidth="227.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+                                 <children>
+                                    <HBox alignment="CENTER" layoutX="-2.0" layoutY="9.0" prefHeight="137.0" prefWidth="231.0">
+                                       <children>
+                                          <ImageView fitHeight="150.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Images/15.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Separator layoutX="9.0" layoutY="147.0" prefHeight="4.0" prefWidth="208.0">
+                                       <effect>
+                                          <Blend />
+                                       </effect>
+                                    </Separator>
+                                    <VBox layoutX="-1.0" layoutY="148.0" prefHeight="115.0" prefWidth="228.0" style="-fx-border-radius: 20;">
+                                       <children>
+                                          <Text fill="#49796b" strokeType="OUTSIDE" strokeWidth="0.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" wrappingWidth="210.80938720703125">
+                                             <font>
+                                                <Font name="Tahoma Bold" size="16.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets left="10.0" />
+                                             </VBox.margin>
+                                          </Text>
+                                          <HBox prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button mnemonicParsing="false" style="-fx-background-color: #ffff;" text="Baca Selengkapnya">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <font>
+                                                      <Font name="System Italic" size="12.0" />
+                                                   </font>
+                                                </Button>
+                                                <ImageView fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                                   <HBox.margin>
+                                                      <Insets left="25.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <image>
+                                                      <Image url="@../Images/Like.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="58.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Images/Bookmarks.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <padding>
+                                    <Insets right="30.0" />
+                                 </padding>
+                              </Pane>
+                              <Pane layoutX="8.0" layoutY="326.0" prefHeight="261.0" prefWidth="227.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+                                 <children>
+                                    <HBox alignment="CENTER" layoutX="-2.0" layoutY="9.0" prefHeight="137.0" prefWidth="231.0">
+                                       <children>
+                                          <ImageView fitHeight="150.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Images/15.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Separator layoutX="9.0" layoutY="147.0" prefHeight="4.0" prefWidth="208.0">
+                                       <effect>
+                                          <Blend />
+                                       </effect>
+                                    </Separator>
+                                    <VBox layoutX="-1.0" layoutY="148.0" prefHeight="115.0" prefWidth="228.0" style="-fx-border-radius: 20;">
+                                       <children>
+                                          <Text fill="#49796b" strokeType="OUTSIDE" strokeWidth="0.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" wrappingWidth="210.80938720703125">
+                                             <font>
+                                                <Font name="Tahoma Bold" size="16.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets left="10.0" />
+                                             </VBox.margin>
+                                          </Text>
+                                          <HBox prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button mnemonicParsing="false" style="-fx-background-color: #ffff;" text="Baca Selengkapnya">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <font>
+                                                      <Font name="System Italic" size="12.0" />
+                                                   </font>
+                                                </Button>
+                                                <ImageView fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                                   <HBox.margin>
+                                                      <Insets left="25.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <image>
+                                                      <Image url="@../Images/Like.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="58.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Images/Bookmarks.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <padding>
+                                    <Insets right="30.0" />
+                                 </padding>
+                              </Pane>
+                              <Pane layoutX="272.0" layoutY="329.0" prefHeight="261.0" prefWidth="227.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+                                 <children>
+                                    <HBox alignment="CENTER" layoutX="-2.0" layoutY="9.0" prefHeight="137.0" prefWidth="231.0">
+                                       <children>
+                                          <ImageView fitHeight="150.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Images/15.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Separator layoutX="9.0" layoutY="147.0" prefHeight="4.0" prefWidth="208.0">
+                                       <effect>
+                                          <Blend />
+                                       </effect>
+                                    </Separator>
+                                    <VBox layoutX="-1.0" layoutY="148.0" prefHeight="115.0" prefWidth="228.0" style="-fx-border-radius: 20;">
+                                       <children>
+                                          <Text fill="#49796b" strokeType="OUTSIDE" strokeWidth="0.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" wrappingWidth="210.80938720703125">
+                                             <font>
+                                                <Font name="Tahoma Bold" size="16.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets left="10.0" />
+                                             </VBox.margin>
+                                          </Text>
+                                          <HBox prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button mnemonicParsing="false" style="-fx-background-color: #ffff;" text="Baca Selengkapnya">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <font>
+                                                      <Font name="System Italic" size="12.0" />
+                                                   </font>
+                                                </Button>
+                                                <ImageView fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                                   <HBox.margin>
+                                                      <Insets left="25.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <image>
+                                                      <Image url="@../Images/Like.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="58.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Images/Bookmarks.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <padding>
+                                    <Insets right="30.0" />
+                                 </padding>
+                              </Pane>
+                              <Pane layoutX="535.0" layoutY="329.0" prefHeight="261.0" prefWidth="227.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+                                 <children>
+                                    <HBox alignment="CENTER" layoutX="-2.0" layoutY="9.0" prefHeight="137.0" prefWidth="231.0">
+                                       <children>
+                                          <ImageView fitHeight="150.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Images/15.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Separator layoutX="9.0" layoutY="147.0" prefHeight="4.0" prefWidth="208.0">
+                                       <effect>
+                                          <Blend />
+                                       </effect>
+                                    </Separator>
+                                    <VBox layoutX="-1.0" layoutY="148.0" prefHeight="115.0" prefWidth="228.0" style="-fx-border-radius: 20;">
+                                       <children>
+                                          <Text fill="#49796b" strokeType="OUTSIDE" strokeWidth="0.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" wrappingWidth="210.80938720703125">
+                                             <font>
+                                                <Font name="Tahoma Bold" size="16.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets left="10.0" />
+                                             </VBox.margin>
+                                          </Text>
+                                          <HBox prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button mnemonicParsing="false" style="-fx-background-color: #ffff;" text="Baca Selengkapnya">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <font>
+                                                      <Font name="System Italic" size="12.0" />
+                                                   </font>
+                                                </Button>
+                                                <ImageView fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                                   <HBox.margin>
+                                                      <Insets left="25.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <image>
+                                                      <Image url="@../Images/Like.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="58.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Images/Bookmarks.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <padding>
+                                    <Insets right="30.0" />
+                                 </padding>
+                              </Pane>
+                              <Pane layoutX="797.0" layoutY="333.0" prefHeight="261.0" prefWidth="227.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+                                 <children>
+                                    <HBox alignment="CENTER" layoutX="-2.0" layoutY="9.0" prefHeight="137.0" prefWidth="231.0">
+                                       <children>
+                                          <ImageView fitHeight="150.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Images/15.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Separator layoutX="9.0" layoutY="147.0" prefHeight="4.0" prefWidth="208.0">
+                                       <effect>
+                                          <Blend />
+                                       </effect>
+                                    </Separator>
+                                    <VBox layoutX="-1.0" layoutY="148.0" prefHeight="115.0" prefWidth="228.0" style="-fx-border-radius: 20;">
+                                       <children>
+                                          <Text fill="#49796b" strokeType="OUTSIDE" strokeWidth="0.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" wrappingWidth="210.80938720703125">
+                                             <font>
+                                                <Font name="Tahoma Bold" size="16.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets left="10.0" />
+                                             </VBox.margin>
+                                          </Text>
+                                          <HBox prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button mnemonicParsing="false" style="-fx-background-color: #ffff;" text="Baca Selengkapnya">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <font>
+                                                      <Font name="System Italic" size="12.0" />
+                                                   </font>
+                                                </Button>
+                                                <ImageView fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                                   <HBox.margin>
+                                                      <Insets left="25.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <image>
+                                                      <Image url="@../Images/Like.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="58.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Images/Bookmarks.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <padding>
+                                    <Insets right="30.0" />
+                                 </padding>
+                              </Pane>
+                              <Pane layoutX="1050.0" layoutY="332.0" prefHeight="261.0" prefWidth="227.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+                                 <children>
+                                    <HBox alignment="CENTER" layoutX="-2.0" layoutY="9.0" prefHeight="137.0" prefWidth="231.0">
+                                       <children>
+                                          <ImageView fitHeight="150.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../Images/15.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Separator layoutX="9.0" layoutY="147.0" prefHeight="4.0" prefWidth="208.0">
+                                       <effect>
+                                          <Blend />
+                                       </effect>
+                                    </Separator>
+                                    <VBox layoutX="-1.0" layoutY="148.0" prefHeight="115.0" prefWidth="228.0" style="-fx-border-radius: 20;">
+                                       <children>
+                                          <Text fill="#49796b" strokeType="OUTSIDE" strokeWidth="0.0" text="Contoh Investasi Hijau yang Bisa Dicoba, Apa Saja Ragamnya?" wrappingWidth="210.80938720703125">
+                                             <font>
+                                                <Font name="Tahoma Bold" size="16.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets left="10.0" />
+                                             </VBox.margin>
+                                          </Text>
+                                          <HBox prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button mnemonicParsing="false" style="-fx-background-color: #ffff;" text="Baca Selengkapnya">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <font>
+                                                      <Font name="System Italic" size="12.0" />
+                                                   </font>
+                                                </Button>
+                                                <ImageView fitHeight="29.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                                   <HBox.margin>
+                                                      <Insets left="25.0" top="10.0" />
+                                                   </HBox.margin>
+                                                   <image>
+                                                      <Image url="@../Images/Like.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="58.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../Images/Bookmarks.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <padding>
+                                    <Insets right="30.0" />
+                                 </padding>
+                              </Pane>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </center>
+         <top>
+            <AnchorPane prefHeight="78.0" prefWidth="1300.0" style="-fx-background-color: #49796B;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="78.0" fitWidth="90.0" layoutX="8.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/logo.png" />
+                     </image>
+                  </ImageView>
+                  <ComboBox fx:id="PilihKategori" layoutX="489.0" layoutY="21.0" prefHeight="36.0" prefWidth="184.0" promptText="Kategori" style="-fx-background-color: #ffff; -fx-border-color: #49796B; -fx-background-radius: 1204; -fx-border-radius: 1204;" />
+                  <Button fx:id="TombolProfile" layoutX="1205.0" layoutY="5.0" mnemonicParsing="false" onAction="#handlePindahPageProfile" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="57.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/user%20new.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutX="111.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FinFuturist" textAlignment="CENTER" wrappingWidth="113.69139862060553">
+                     <font>
+                        <Font name="Times New Roman" size="20.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="TombolHalamanUtama" layoutX="694.0" layoutY="25.0" mnemonicParsing="false" onAction="#handleHalamanUtama" style="-fx-background-color: #49796B;" text="HALAMAN UTAMA" textFill="#fafafa">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="TombolDisukai" layoutX="856.0" layoutY="23.0" mnemonicParsing="false" onAction="#handlePindahPageDisukai" style="-fx-background-color: #49796B;" text="DISUKAI" textFill="#fafafa">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="TombolDisimpan" layoutX="957.0" layoutY="24.0" mnemonicParsing="false" onAction="#handlePindahPageDisimpan" style="-fx-background-color: #49796B;" text="DISIMPAN" textFill="#fafafa">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="TombolPencarian" layoutX="255.0" layoutY="18.0" mnemonicParsing="false" onAction="#handlePindahPagePencarian" style="-fx-background-color: Transparent;">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/pencarian.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </top>
+      </BorderPane>
+      <Button fx:id="TombolRiwayatBaca" layoutX="1063.0" layoutY="24.0" mnemonicParsing="false" onAction="#handlePindahPageRiwayatBaca" style="-fx-background-color: #49796B;" text="RIWAYAT BACA" textFill="#fafafa">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="MainPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="735.0" prefWidth="1300.0">
+         <center>
+            <ScrollPane prefHeight="874.0" prefWidth="1300.0" BorderPane.alignment="CENTER">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="901.0" prefWidth="1283.0" style="-fx-background-color: #ffff;">
+                     <children>
+                        <Label layoutX="22.0" layoutY="96.0" text="Investasi Berkelanjutan" textFill="#49796b">
+                           <font>
+                              <Font name="Lucida Bright" size="16.0" />
+                           </font>
+                        </Label>
+                        <Separator layoutX="1.0" layoutY="342.0" prefHeight="2.0" prefWidth="1286.0" style="-fx-background-color: #49796B;" />
+                        <Label layoutX="24.0" layoutY="371.0" text="Penganggaran produk ramah lingkungan" textFill="#49796b">
+                           <font>
+                              <Font name="Lucida Bright" size="16.0" />
+                           </font>
+                        </Label>
+                        <Text fill="#49796b" fontSmoothingType="LCD" layoutX="80.0" layoutY="858.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manfaat ekonomi dari pengurangan limbah" textAlignment="CENTER" wrappingWidth="113.69139862060553">
+                           <font>
+                              <Font name="Times New Roman" size="11.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="132.0" fitWidth="160.0" layoutX="53.0" layoutY="680.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/Artikel%203.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="107.0" fitWidth="191.0" layoutX="22.0" layoutY="425.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/Artikel%202.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="132.0" fitWidth="191.0" layoutX="238.0" layoutY="403.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/Artikel%209.jpg" />
+                           </image></ImageView>
+                        <ImageView fitHeight="115.0" fitWidth="178.0" layoutX="443.0" layoutY="395.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/Artikel%2010.jpg" />
+                           </image></ImageView>
+                        <ImageView fitHeight="103.0" fitWidth="191.0" layoutX="644.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/Artikel%2011.jpg" />
+                           </image></ImageView>
+                        <ImageView fitHeight="132.0" fitWidth="191.0" layoutX="857.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/Artikel%2012.jpg" />
+                           </image></ImageView>
+                        <ImageView fitHeight="121.0" fitWidth="182.0" layoutX="1074.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/Artikel%2016.jpg" />
+                           </image></ImageView>
+                        <ImageView fitHeight="132.0" fitWidth="191.0" layoutX="229.0" layoutY="675.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/Artikel%2013.jpg" />
+                           </image></ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="176.0" layoutX="444.0" layoutY="696.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/Artikel%2015.jpg" />
+                           </image></ImageView>
+                        <ImageView fitHeight="132.0" fitWidth="191.0" layoutX="647.0" layoutY="669.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/Artikel%2014.jpg" />
+                           </image></ImageView>
+                        <ImageView fitHeight="111.0" fitWidth="174.0" layoutX="871.0" layoutY="689.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/Artikel%2017.jpg" />
+                           </image></ImageView>
+                        <ImageView fitHeight="125.0" fitWidth="199.0" layoutX="1069.0" layoutY="681.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/Artikel%2018.jpg" />
+                           </image></ImageView>
+                        <Hyperlink layoutX="36.0" layoutY="542.0" text="Cara Melakukan Penggaran" textFill="#49796b">
+                           <font>
+                              <Font name="Times New Roman" size="13.0" />
+                           </font>
+                        </Hyperlink>
+                        <Separator layoutX="1.0" layoutY="620.0" prefHeight="2.0" prefWidth="1286.0" style="-fx-background-color: #49796B;" />
+                        <Label layoutX="28.0" layoutY="647.0" text="Manfaat ekonomi dari pengurangan limbah" textFill="#49796b">
+                           <font>
+                              <Font name="Lucida Bright" size="16.0" />
+                           </font>
+                        </Label>
+                        <Hyperlink layoutX="24.0" layoutY="559.0" text="Untuk produk ramah lingkungan" textFill="#49796b">
+                           <font>
+                              <Font name="Times New Roman" size="13.0" />
+                           </font>
+                        </Hyperlink>
+                        <Text fill="#49796b" fontSmoothingType="LCD" layoutX="879.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cara hidup ramah lingkungan dengan anggran terbatas" textAlignment="CENTER" wrappingWidth="148.35808563232428">
+                           <font>
+                              <Font name="Times New Roman" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#49796b" fontSmoothingType="LCD" layoutX="258.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Macam Macam kemasan produk ramah lingkungan" textAlignment="CENTER" wrappingWidth="148.35808563232428">
+                           <font>
+                              <Font name="Times New Roman" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#49796b" fontSmoothingType="LCD" layoutX="458.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pentingnya menggunakan produk ramah lingkungan!" textAlignment="CENTER" wrappingWidth="148.35808563232428">
+                           <font>
+                              <Font name="Times New Roman" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#49796b" fontSmoothingType="LCD" layoutX="1077.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Analisa strategis pengembangan produk ramah lingkungan" textAlignment="CENTER" wrappingWidth="181.69133758544928">
+                           <font>
+                              <Font name="Times New Roman" size="13.0" />
+                           </font>
+                        </Text>
+                        <ScrollPane layoutX="18.0" layoutY="129.0" prefHeight="200.0" prefWidth="1255.0" style="-fx-background-color: #ffff;">
+                           <content>
+                              <AnchorPane prefHeight="195.0" prefWidth="1243.0" style="-fx-background-color: #ffff;" />
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </center>
+      </BorderPane>
+      <AnchorPane layoutY="-1.0" prefHeight="78.0" prefWidth="1300.0" style="-fx-background-color: #49796B;">
+         <children>
+            <ImageView fitHeight="78.0" fitWidth="90.0" layoutX="8.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/logo.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="254.0" layoutY="22.0" prefHeight="37.0" prefWidth="200.0" promptText="Cari" style="-fx-border-width: #49796B; -fx-border-color: #49796B; -fx-border-radius: 1204; -fx-background-radius: 1204; -fx-background-color: #ffff;">
+               <font>
+                  <Font size="16.0" />
+               </font></TextField>
+            <ComboBox layoutX="489.0" layoutY="21.0" prefHeight="36.0" prefWidth="184.0" promptText="Kategori" style="-fx-background-color: #ffff; -fx-border-color: #49796B; -fx-background-radius: 1204; -fx-border-radius: 1204;" />
+            <Hyperlink layoutX="861.0" layoutY="23.0" prefHeight="34.0" prefWidth="82.0" text="DISUKAI" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Hyperlink>
+            <Button layoutX="1205.0" layoutY="5.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/user%20new.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Hyperlink layoutX="962.0" layoutY="24.0" prefHeight="34.0" prefWidth="94.0" text="DISIMPAN" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink layoutX="1069.0" layoutY="24.0" prefHeight="34.0" prefWidth="125.0" text="RIWAYAT BACA" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Hyperlink>
+            <Text fill="WHITE" fontSmoothingType="LCD" layoutX="111.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FinFuturist" textAlignment="CENTER" wrappingWidth="113.69139862060553">
+               <font>
+                  <Font name="Times New Roman" size="20.0" />
+               </font>
+            </Text>
+            <Hyperlink layoutX="699.0" layoutY="23.0" prefHeight="34.0" prefWidth="146.0" text="HALAMAN UTAMA" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Hyperlink>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
